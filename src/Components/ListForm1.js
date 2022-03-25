@@ -13,7 +13,7 @@ function ListForm1() {
 
     useEffect(() => {
         axios
-            .get("http://stagelms.iismworld.com/api/courses/list/?page=2", {
+            .get("https://jsonplaceholder.typicode.com/photos", {
                 params: {
                     _limit: 100,
                 },

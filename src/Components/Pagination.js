@@ -10,7 +10,6 @@ function Pagination({ perpage, totaluser, paginate }) {
   return (
     <>
       <div 
-    //   style={{ marginLeft: "135vh",  }}
     style={{textAlign:"right",marginRight:"200px",marginTop: "80px"}}
       >
         {paginateNum.map((number) => (
